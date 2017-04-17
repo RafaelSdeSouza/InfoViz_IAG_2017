@@ -1,0 +1,54 @@
+---
+title: "Advanced Topics in R"
+author: "Rafael S. de Souza"
+date: "4/17/2017"
+output:
+  slidy_presentation: null
+  html_document: default
+  incremental: yes
+  ioslides_presentation: null
+  highlight: pygments
+subtitle: Information Visualization
+framework: html5slides
+transition: rotate
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Required packages
+
+```{r,echo=T,message=F, warning=FALSE}
+require(DT);require(webshot);require(ggplot2);require(plotly);
+require(reshape2)
+```
+
+## Data Exploration
+
+```{r}
+data(iris)
+d <- iris
+DT::datatable(d)
+```
+
+
+
+## Histograms 
+
+```{r, message=F, warning=FALSE}
+p <- ggplot(data = iris, aes(x = Sepal.Length, group=Species, fill = Species)) +
+  geom_histogram(bins = 45)
+ggplotly(p)
+```
+
+
+## Pair-wise correlations 
+
+```{r, message=F, warning=FALSE}
+c <- melt(cor(iris[,1:4]))
+
+q <- ggplot(data=c,aes(x=Var1, y=Var2)) + geom_tile(aes(fill = value)) +
+   scale_fill_gradient2(limits=c(-1, 1)) + xlab("") + ylab("")
+ggplotly(q)
+```
