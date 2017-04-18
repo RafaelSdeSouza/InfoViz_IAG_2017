@@ -20,19 +20,29 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Required packages
 
 ```{r,echo=T,message=F, warning=FALSE}
-require(DT);require(webshot);require(ggplot2);require(plotly);
-require(reshape2);require(networkD3);require(d3heatmap);require(circlize);
+require(ggplot2);
+require(reshape2);require(d3heatmap);require(circlize)
+```
+
+```{r,echo=F,message=F, warning=FALSE}
+require(DT);require(webshot);require(plotly);
+require(networkD3);require(d3heatmap);
 require(chorddiag)
 ```
 
 ## Data Exploration
+Read and display data in  table format
+```{r,echo=T, eval=FALSE}
+d <- read.csv("exoplanets.csv",header = T)
+d <- d[complete.cases(d),]
+head(d)
+```
 
 ```{r}
 d <- read.csv("exoplanets.csv",header = T)
 d <- d[complete.cases(d),]
 DT::datatable(d)
 ```
-
 
 
 ## Scatter plot
@@ -43,25 +53,40 @@ p1 <- ggplot(data = d, aes(x = Period, y = star_mass, group=Discovery_method, fi
 ggplotly(p1)
 ```
 
+## Linear Fit  
+
+```{r, message=F, warning=FALSE}
+p3 <- ggplot(data = d, aes(x = star_mass,y =star_radius)) +
+  geom_point(size=2.5,alpha=0.6,color="gray45") + geom_smooth(size=2,color="red")+
+  xlab("Stellar Mass") + ylab("Stellar Radius")
+
+ggplotly(p3)
+```
+
+
 
 
 ## Histograms 
 
 ```{r, message=F, warning=FALSE}
-p <- ggplot(data = d, aes(x = Radius, group=Discovery_method, fill = Discovery_method)) +
-  geom_histogram(bins = 45)
-ggplotly(p)
+p2 <- ggplot(data = d, aes(x = Radius)) +
+  geom_histogram(bins = 45,fill="red")
+ggplotly(p2)
 ```
 
 
-## Pair-wise correlations 
-
+## Heatmap 
 ```{r, message=F, warning=FALSE}
 c <- melt(cor(d[,c(2,3,5,6,7)]))
 
 q <- ggplot(data=c,aes(x=Var1, y=Var2)) + geom_tile(aes(fill = value)) +
    scale_fill_gradient2(limits=c(-1, 1)) + xlab("") + ylab("")
 ggplotly(q)
+```
+
+## Heatmap 
+```{r, message=F, warning=FALSE}
+d3heatmap(cor(d[,c(2,3,5,6,7)]), scale="column", colors = "Blues")
 ```
 
 ## Chord Diagram
@@ -78,7 +103,3 @@ chorddiag(nc)
 ```
 
 
-## Heatmap 
-```{r, message=F, warning=FALSE}
-d3heatmap(cor(d[,c(2,3,5,6,7)]), scale="column", colors = "Blues")
-```
