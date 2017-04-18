@@ -3,11 +3,11 @@ title: "Advanced Topics in R"
 author: "Rafael S. de Souza"
 date: "4/17/2017"
 output:
-  slidy_presentation: null
   html_document: default
+  highlight: pygments
   incremental: yes
   ioslides_presentation: null
-  highlight: pygments
+  slidy_presentation: null
 subtitle: Information Visualization
 framework: html5slides
 transition: rotate
