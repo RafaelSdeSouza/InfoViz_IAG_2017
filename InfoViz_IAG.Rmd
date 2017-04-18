@@ -21,15 +21,26 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r,echo=T,message=F, warning=FALSE}
 require(DT);require(webshot);require(ggplot2);require(plotly);
-require(reshape2)
+require(reshape2);require(networkD3);require(d3heatmap);require(circlize);
+require(chorddiag)
 ```
 
 ## Data Exploration
 
 ```{r}
-data(iris)
-d <- iris
+d <- read.csv("exoplanets.csv",header = T)
+d <- d[complete.cases(d),]
 DT::datatable(d)
+```
+
+
+
+## Scatter plot
+
+```{r, message=F, warning=FALSE}
+p1 <- ggplot(data = d, aes(x = Period, y = star_mass, group=Discovery_method, fill = Discovery_method,text=name,size=Radius)) +
+  geom_point(alpha=0.5) +scale_x_log10() + ylab("Stellar Mass") + xlab("Period")
+ggplotly(p1)
 ```
 
 
@@ -37,7 +48,7 @@ DT::datatable(d)
 ## Histograms 
 
 ```{r, message=F, warning=FALSE}
-p <- ggplot(data = iris, aes(x = Sepal.Length, group=Species, fill = Species)) +
+p <- ggplot(data = d, aes(x = Radius, group=Discovery_method, fill = Discovery_method)) +
   geom_histogram(bins = 45)
 ggplotly(p)
 ```
@@ -46,9 +57,28 @@ ggplotly(p)
 ## Pair-wise correlations 
 
 ```{r, message=F, warning=FALSE}
-c <- melt(cor(iris[,1:4]))
+c <- melt(cor(d[,c(2,3,5,6,7)]))
 
 q <- ggplot(data=c,aes(x=Var1, y=Var2)) + geom_tile(aes(fill = value)) +
    scale_fill_gradient2(limits=c(-1, 1)) + xlab("") + ylab("")
 ggplotly(q)
+```
+
+## Chord Diagram
+```{r,echo=T, eval=FALSE}
+nc <- cor(d[,c(2,3,5,6,7)])
+chordDiagram(nc)
+```
+
+
+```{r, message=F, warning=FALSE}
+nc <- as.matrix(cor(d[,c(2,3,5,6,7)]))
+# Make the circular plot
+chorddiag(nc)
+```
+
+
+## Heatmap 
+```{r, message=F, warning=FALSE}
+d3heatmap(cor(d[,c(2,3,5,6,7)]), scale="column", colors = "Blues")
 ```
