@@ -3,11 +3,11 @@ title: "Advanced Topics in R"
 author: "Rafael S. de Souza"
 date: "4/17/2017"
 output:
+  slidy_presentation: null
   html_document: default
-  highlight: pygments
   incremental: yes
   ioslides_presentation: null
-  slidy_presentation: null
+  highlight: pygments
 subtitle: Information Visualization
 framework: html5slides
 transition: rotate
@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r,echo=T,message=F, warning=FALSE}
 require(ggplot2);
-require(reshape2);require(d3heatmap);require(circlize)
+require(reshape2);require(d3heatmap);require(circlize);require(ggdendro)
 ```
 
 ```{r,echo=F,message=F, warning=FALSE}
@@ -53,16 +53,29 @@ p1 <- ggplot(data = d, aes(x = Period, y = star_mass, group=Discovery_method, fi
 ggplotly(p1)
 ```
 
-## Linear Fit  
-
+## Boxplot
 ```{r, message=F, warning=FALSE}
-p3 <- ggplot(data = d, aes(x = star_mass,y =star_radius)) +
-  geom_point(size=2.5,alpha=0.6,color="gray45") + geom_smooth(size=2,color="red")+
-  xlab("Stellar Mass") + ylab("Stellar Radius")
+xcut <- cut(log10(d$Period),breaks=5)
+d$xcut <- xcut
+p3 <- ggplot(data = d, aes(x = log10(Period), y = star_mass)) +
+   geom_boxplot(data = d, aes(x = xcut,y = star_mass),fill="red3")+  
+   geom_point(aes(group=Discovery_method,  fill = Discovery_method,text=name,size=Radius),alpha=0.3)+
+   xlab("Stellar Mass") + ylab("Stellar Radius")
 
 ggplotly(p3)
 ```
 
+
+
+## Linear Fit  
+
+```{r, message=F, warning=FALSE}
+p4 <- ggplot(data = d, aes(x = star_mass,y =star_radius)) +
+  geom_point(size=2.5,alpha=0.6,color="gray45") + geom_smooth(size=2,color="red")+
+  xlab("Stellar Mass") + ylab("Stellar Radius")
+
+ggplotly(p4)
+```
 
 
 
@@ -88,6 +101,16 @@ ggplotly(q)
 ```{r, message=F, warning=FALSE}
 d3heatmap(cor(d[,c(2,3,5,6,7)]), scale="column", colors = "Blues")
 ```
+
+## Dendrograms 
+```{r, message=F, warning=FALSE}
+m <- cor(d[,c(2,3,5,6,7)])
+hc = hclust(dist(m))
+p6<-ggdendrogram(hc)
+p6
+```
+
+
 
 ## Chord Diagram
 ```{r,echo=T, eval=FALSE}
