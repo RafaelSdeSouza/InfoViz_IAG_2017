@@ -3,20 +3,53 @@ title: "Advanced Topics in R"
 author: "Rafael S. de Souza"
 date: "4/17/2017"
 output:
-  slidy_presentation: null
-  html_document: default
-  incremental: yes
-  ioslides_presentation: null
-  highlight: pygments
+  slidy_presentation: default
+  ioslides_presentation: default
+highlighter: pygments
+hitheme: solarized_light
+mode: selfcontained
+framework: io2012
 subtitle: Information Visualization
-framework: html5slides
-transition: rotate
+footer: Copyright (c) Rafael S. de Souza
+widgets:
+- mathjax
+- bootstrap
+- quiz
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
+## A statistical computing environment 
+<img src="Rlogo.png" style="position:float;top:0px;left:0px;width: 150px;" />
+
+* R integrates data manipulation, graphics and extensive statistical analysis. Uniform documentation and coding standards. But quality control is limited.
+
+* Easy download from http://www.r-project.org for Windows, Mac or linux. On-the-fly installation of CRAN packages.
+
+* $>$ 10500 user-provided add-on CRAN packages, tens of thousands of statistical functions
+
+* Principal difficulty: Finding what you want, and understanding what you find. Google helps the former problem. Improved education in statistics addresses the latter problem.
+
+## Some functionalities of R
+
+  | |
+------------- | -------------------------- | -------------
+Bayesian Inference         | Machine Learning  |  Social Sciences  
+Computational Physics      | Medical Image Analysis | Spatial Data
+Cluster Analysis           | Multivariate Statistics | Statistical Geneticss
+Differential Equations     | Natural Language | Survival Analysi 
+Econometrics               | Numerical Mathematic | Time Series Analysis 
+Environmetrics             | Optimization | Visualization | High-Performance Computing
+Environmetrics             | Pharmacokinetic | Web Technologies
+Extreme Value Analysis     | Phylogenetics 
+Empirical Finance          | Probability Distributions
+Functional Data Analysis   | Psychometric 
+
+  
+  
 ## Required packages
 
 ```{r,echo=T,message=F, warning=FALSE}
@@ -25,10 +58,65 @@ require(reshape2);require(d3heatmap);require(circlize);require(ggdendro)
 ```
 
 ```{r,echo=F,message=F, warning=FALSE}
-require(DT);require(webshot);require(plotly);
-require(networkD3);require(d3heatmap);
-require(chorddiag)
+require(DT);require(webshot);require(plotly);require(d3heatmap);
+require(chorddiag);require(rCharts);require(slidifyLibraries);require(pander)
 ```
+
+
+## Basic commands 
+
+
+```{r,echo=T,message=F, warning=FALSE}
+1+1
+x <- 2
+for (i in 1:5){
+print(x+i)  
+}
+```
+
+## Basic commands 
+
+```{r,echo=T,message=F, warning=FALSE}
+x <- rnorm(100)
+hist(x)
+```
+
+## Simple regression model 
+
+```{r,echo=T,message=F, warning=FALSE}
+set.seed(1056)                    # set seed to replicate example
+nobs= 150                         # number of obs in model 
+x1 <- runif(nobs,0,5)             # random uniform variable
+mu <- 1 + 5 * x1 - 0.75 * x1 ^ 2  # linear predictor, xb
+y <- rnorm(nobs, mu, sd=0.5)      # create y as adjusted random normal variate 
+fit <- lm(y ~ x1+I(x1^2))          # Normal Fit 
+```
+
+```{r,echo=T,message=F, warning=FALSE,eval=F}
+summary(fit)
+```
+
+```{r,echo=F,message=F, warning=FALSE}
+pander(fit)
+```
+
+## Plot results
+
+```{r,echo=T,message=F, warning=FALSE}
+xx <- seq(0,5,length=200)
+ypred <- predict(fit,newdata=list(x1=xx),type="response")     # Prediction from the model 
+
+plot(x1,y,pch=19,col="red")                                   # Plot regression line 
+lines(xx,ypred,col='cyan',lwd=4,lty=2)
+
+segments(x1,fitted(fit),x1,y,lwd=2,col="gray")                # add the residuals
+```
+
+
+ 
+
+
+
 
 ## Data Exploration
 Read and display data in  table format
@@ -71,7 +159,7 @@ ggplotly(p3)
 
 ```{r, message=F, warning=FALSE}
 p4 <- ggplot(data = d, aes(x = star_mass,y =star_radius)) +
-  geom_point(size=2.5,alpha=0.6,color="gray45") + geom_smooth(size=2,color="red")+
+  geom_point(size=2.5,alpha=0.6,color="gray45") + geom_smooth(size=2,color="red",method = "lm")+
   xlab("Stellar Mass") + ylab("Stellar Radius")
 
 ggplotly(p4)
@@ -97,16 +185,18 @@ q <- ggplot(data=c,aes(x=Var1, y=Var2)) + geom_tile(aes(fill = value)) +
 ggplotly(q)
 ```
 
+---  
 ## Heatmap 
 ```{r, message=F, warning=FALSE}
 d3heatmap(cor(d[,c(2,3,5,6,7)]), scale="column", colors = "Blues")
 ```
 
+
 ## Dendrograms 
 ```{r, message=F, warning=FALSE}
 m <- cor(d[,c(2,3,5,6,7)])
 hc = hclust(dist(m))
-p6<-ggdendrogram(hc)
+p6<-ggdendrogram(hc, rotate = TRUE, theme_dendro = FALSE)
 p6
 ```
 
