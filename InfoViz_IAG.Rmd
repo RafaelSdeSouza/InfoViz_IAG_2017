@@ -1,7 +1,7 @@
 ---
-title: "Advanced Topics in R"
+title: "Topics in R"
 author: "Rafael S. de Souza"
-date: "4/17/2017"
+date: "4/28/2017"
 output:
   slidy_presentation: default
   ioslides_presentation: default
@@ -9,7 +9,7 @@ highlighter: pygments
 hitheme: solarized_light
 mode: selfcontained
 framework: io2012
-subtitle: Information Visualization
+subtitle: Information Visualization AGA0513
 footer: Copyright (c) Rafael S. de Souza
 widgets:
 - mathjax
@@ -49,12 +49,22 @@ Empirical Finance          | Probability Distributions
 Functional Data Analysis   | Psychometric 
 
   
-  
 ## Required packages
+
+Some packages to run the examples.
+
+If not installed run first
+
+```{r,echo=T,message=F, warning=FALSE,eval=F}
+install.packages(c("ggplot2","reshape2","circlize","ggdendro"),dependencies = T)
+```
+
+Otherwise
 
 ```{r,echo=T,message=F, warning=FALSE}
 require(ggplot2);
-require(reshape2);require(d3heatmap);require(circlize);require(ggdendro)
+require(reshape2);require(d3heatmap);require(circlize);require(ggdendro);
+require(PerformanceAnalytics)
 ```
 
 ```{r,echo=F,message=F, warning=FALSE}
@@ -64,7 +74,6 @@ require(chorddiag);require(rCharts);require(slidifyLibraries);require(pander)
 
 
 ## Basic commands 
-
 
 ```{r,echo=T,message=F, warning=FALSE}
 1+1
@@ -84,12 +93,12 @@ hist(x)
 ## Simple regression model 
 
 ```{r,echo=T,message=F, warning=FALSE}
-set.seed(1056)                    # set seed to replicate example
-nobs= 150                         # number of obs in model 
-x1 <- runif(nobs,0,5)             # random uniform variable
-mu <- 1 + 5 * x1 - 0.75 * x1 ^ 2  # linear predictor, xb
-y <- rnorm(nobs, mu, sd=0.5)      # create y as adjusted random normal variate 
-fit <- lm(y ~ x1+I(x1^2))          # Normal Fit 
+set.seed(1056)              # set seed to replicate example
+nobs= 150                   # number of obs in model 
+x1 <- runif(nobs,0,5)       # random uniform variable
+mu <- 1 + 5 * x1            # linear predictor, xb
+y <- rnorm(nobs, mu, sd=1)  # create y as adjusted random normal variate 
+fit <- lm(y ~ x1)           # Normal Fit 
 ```
 
 ```{r,echo=T,message=F, warning=FALSE,eval=F}
@@ -100,7 +109,7 @@ summary(fit)
 pander(fit)
 ```
 
-## Plot results
+## Plot results-basic R
 
 ```{r,echo=T,message=F, warning=FALSE}
 xx <- seq(0,5,length=200)
@@ -114,11 +123,20 @@ segments(x1,fitted(fit),x1,y,lwd=2,col="gray")                # add the residual
 
 
  
+## Plot results-ggplot
+
+```{r,echo=T,message=F, warning=FALSE}
+dat <- data.frame(x1,y)
+ggplot(data=dat,aes(x =x1, y = y)) + 
+  geom_point() +
+  stat_smooth(method = "lm", col = "red")
+```
 
 
 
 
 ## Data Exploration
+
 Read and display data in  table format
 ```{r,echo=T, eval=FALSE}
 d <- read.csv("exoplanets.csv",header = T)
@@ -133,7 +151,7 @@ DT::datatable(d)
 ```
 
 
-## Scatter plot
+## Visualization-Scatter plot
 
 ```{r, message=F, warning=FALSE}
 p1 <- ggplot(data = d, aes(x = Period, y = star_mass, group=Discovery_method, fill = Discovery_method,text=name,size=Radius)) +
@@ -141,21 +159,49 @@ p1 <- ggplot(data = d, aes(x = Period, y = star_mass, group=Discovery_method, fi
 ggplotly(p1)
 ```
 
-## Boxplot
+## Visualization-Boxplot
+
 ```{r, message=F, warning=FALSE}
 xcut <- cut(log10(d$Period),breaks=5)
 d$xcut <- xcut
 p3 <- ggplot(data = d, aes(x = log10(Period), y = star_mass)) +
    geom_boxplot(data = d, aes(x = xcut,y = star_mass),fill="red3")+  
    geom_point(aes(group=Discovery_method,  fill = Discovery_method,text=name,size=Radius),alpha=0.3)+
-   xlab("Stellar Mass") + ylab("Stellar Radius")
+   xlab("Stellar Mass") + ylab("Stellar Radius")+
+  theme(legend.position = "none")
+
+ggplotly(p3)
+```
+
+## Visualization-Boxplot
+
+```{r, message=F, warning=FALSE}
+xcut <- cut(log10(d$Period),breaks=5)
+d$xcut <- xcut
+p3 <- ggplot(data = d, aes(x = log10(Period), y = star_mass)) +
+   geom_boxplot(data = d, aes(x = xcut,y = star_mass),fill="red3")+  
+   xlab("Stellar Mass") + ylab("Stellar Radius") +
+  theme(legend.position = "none")
+
+ggplotly(p3)
+```
+
+## Visualization-Violin plot
+
+```{r, message=F, warning=FALSE}
+xcut <- cut(log10(d$Period),breaks=5)
+d$xcut <- xcut
+p3 <- ggplot(data = d, aes(x = log10(Period), y = star_mass)) +
+   geom_violin(data = d, aes(x = xcut,y = star_mass),fill="red3")+  
+   xlab("Stellar Mass") + ylab("Stellar Radius")+
+  theme(legend.position = "none")
 
 ggplotly(p3)
 ```
 
 
 
-## Linear Fit  
+## Visualization-Linear Fit  
 
 ```{r, message=F, warning=FALSE}
 p4 <- ggplot(data = d, aes(x = star_mass,y =star_radius)) +
@@ -167,32 +213,80 @@ ggplotly(p4)
 
 
 
-## Histograms 
+## Visualization-Histograms 
 
 ```{r, message=F, warning=FALSE}
-p2 <- ggplot(data = d, aes(x = Radius)) +
-  geom_histogram(bins = 45,fill="red")
+p2 <- ggplot(data = d, aes(x = Radius)) + geom_histogram(bins = 45,fill="red")
+ggplotly(p2)
+```
+
+## Visualization-Kernel Density
+
+```{r, message=F, warning=FALSE}
+p2 <- ggplot(data = d, aes(x = Radius)) + geom_density(fill="red")
 ggplotly(p2)
 ```
 
 
-## Heatmap 
-```{r, message=F, warning=FALSE}
-c <- melt(cor(d[,c(2,3,5,6,7)]))
+## Visualization-Kernel Density 
+By groups
 
+```{r, echo=T,message=F, warning=FALSE}
+p2 <- ggplot(data = d, aes(x = Radius,group=Discovery_method,fill=Discovery_method)) +
+      geom_density()+ scale_fill_discrete(name="")
+ggplotly(p2)
+```
+
+## Visualization-Kernel Density 
+By groups
+
+```{r, echo=T,message=F, warning=FALSE}
+p2 <- ggplot(data = d, aes(x = Radius,group=Discovery_method,fill=Discovery_method)) +
+      geom_density(adjust=1.5, position="fill")+ scale_fill_discrete(name="")
+ggplotly(p2)
+```
+
+
+## Visualization-correlation matrix
+```{r,echo=T, message=F, warning=FALSE,eval=F}
+dcor <- cor(d[,c(2,3,5,6,7)])
+print(dcor)
+```
+
+```{r,echo=F, message=F, warning=FALSE}
+dcor <- cor(d[,c(2,3,5,6,7)])
+pander(dcor )
+```
+
+
+## Visualization-correlation matrix
+```{r,echo=T, message=F, warning=FALSE}
+c0 <- scale(log10(d[,c(2,3,5,6,7)]))
+chart.Correlation(c0, histogram=TRUE, pch=19)
+```
+
+## Visualization-correlation matrix
+```{r,echo=T, message=F, warning=FALSE}
+library(psych)
+pairs.panels(log10(d[,c(2,3,5,6,7)]), scale=TRUE)
+```
+
+## Visualization-Heatmap 
+```{r, message=F, warning=FALSE}
+c <- melt(c0)
 q <- ggplot(data=c,aes(x=Var1, y=Var2)) + geom_tile(aes(fill = value)) +
    scale_fill_gradient2(limits=c(-1, 1)) + xlab("") + ylab("")
 ggplotly(q)
 ```
 
 ---  
-## Heatmap 
+## Visualization-Heatmap with Dendrograms
 ```{r, message=F, warning=FALSE}
 d3heatmap(cor(d[,c(2,3,5,6,7)]), scale="column", colors = "Blues")
 ```
 
 
-## Dendrograms 
+## Visualization-Dendrograms 
 ```{r, message=F, warning=FALSE}
 m <- cor(d[,c(2,3,5,6,7)])
 hc = hclust(dist(m))
@@ -202,7 +296,7 @@ p6
 
 
 
-## Chord Diagram
+## Visualization-Chord Diagram
 ```{r,echo=T, eval=FALSE}
 nc <- cor(d[,c(2,3,5,6,7)])
 chordDiagram(nc)
