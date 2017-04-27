@@ -75,4 +75,6 @@ These can be done in 2 ways:
 
       install.packages(pac,dependencies=T)
     
-
+## License
+<p><a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank"><img src="https://www.gnu.org/graphics/gplv3-127x51.png"></a></p>
+Licensed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank">GPLv3</a>.
