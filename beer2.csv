@@ -1,0 +1,680 @@
+"X","abv","ibu","id","name","style","brewery_id","ounces"
+28,0.07,70,799,"21st Amendment IPA (2006)","IPA",368,12
+29,0.07,70,797,"Brew Free! or Die IPA (2008)","IPA",368,12
+30,0.07,70,796,"Brew Free! or Die IPA (2009)","IPA",368,12
+32,0.097,94,432,"Hop Crisis","IPA",368,12
+37,0.07,65,10,"Brew Free! or Die IPA","IPA",368,12
+39,0.07,82,2519,"Bimini Twist","IPA",67,12
+42,0.035,11,2545,"Passion Fruit Prussia","Weissbier",60,12
+43,0.045,18,2544,"Send Help","Blonde Ale",60,12
+51,0.05,45,2602,"Citrafest","IPA",27,16
+53,0.069,65,2219,"Scarecrow","IPA",27,16
+57,0.059,75,972,"Rude Parrot IPA","IPA",481,16
+60,0.084,82,47,"Ballz Deep Double IPA","IPA",481,16
+64,0.065,52,516,"Jockamo IPA","IPA",533,12
+67,0.082,68,2540,"Citra Ass Down","IPA",62,16
+68,0.05,20,2539,"The Brown Note","Brown Ale",62,16
+69,0.08,68,2686,"Citra Ass Down","IPA",1,16
+75,0.04,13,2680,"Sho'nuff","IPA",1,16
+77,0.076,68,2678,"Rico Sauvin","IPA",1,16
+80,0.06,65,2675,"Pile of Face","IPA",1,16
+81,0.05,20,2674,"The Brown Note","Brown Ale",1,16
+82,0.053,35,1594,"Maylani's Coconut Stout","Stout",367,16
+87,0.082,103,2401,"Yellow Wolf Imperial IPA","IPA",117,12
+95,0.062,43,837,"Desolation IPA","IPA",401,16
+107,0.07,80,1327,"Hop Ottin' IPA","IPA",171,12
+108,0.058,15,1326,"Boont Amber Ale","Red Ale",171,12
+111,0.058,15,811,"Boont Amber Ale (2010)","Red Ale",171,12
+115,0.07,80,367,"Hop Ottin' IPA (2011)","IPA",171,12
+116,0.058,15,78,"Boont Amber Ale (2011)","Red Ale",171,12
+128,0.071,75,2511,"Long Leaf","IPA",69,16
+129,0.047,19,2510,"Honey Badger Blonde","Blonde Ale",69,16
+130,0.06,23,2509,"Porter (a/k/a Black Gold Porter)","Porter",69,16
+134,0.092,50,1333,"Quakertown Stout","Stout",426,12
+137,0.07,45,1322,"Green Bullet Organic India Pale Ale","IPA",429,16
+139,0.053,26,429,"Ninja Porter","Porter",528,12
+140,0.06,69,428,"Shiva IPA","IPA",528,12
+144,0.056,27,597,"This Season's Blonde","Blonde Ale",523,12
+145,0.07,67,596,"Independence Pass Ale","IPA",523,12
+146,0.057,40,1580,"Trolley Stop Stout","Stout",374,12
+147,0.082,138,980,"Bitter Bitch Imperial IPA","IPA",374,12
+148,0.062,35,979,"Poop Deck Porter","Porter",374,12
+149,0.06,35,978,"Old Red Beard Amber Ale","Red Ale",374,12
+150,0.075,115,2503,"Hop A-Peel","IPA",72,16
+151,0.055,12,2502,"Vanilla Java Porter","Porter",72,16
+153,0.045,8,534,"Dirty Blonde Ale","Blonde Ale",72,12
+154,0.05,62,528,"Grand Circus IPA","IPA",72,12
+165,0.063,69,107,"Avery India Pale Ale","IPA",37,12
+166,0.055,17,106,"Ellie’s Brown Ale","Brown Ale",37,12
+172,0.061,41,702,"Hot Rod Red","Red Ale",360,12
+180,0.068,70,966,"Topcutter India Pale Ale","IPA",483,12
+183,0.038,40,2105,"Even Keel","IPA",34,12
+185,0.07,75,1400,"Big Eye India Pale Ale","IPA",34,12
+187,0.07,70,1018,"Sculpin IPA","IPA",34,12
+190,0.035,45,1643,"Banner American Ale","Red Ale",318,12
+191,0.07,46,2618,"Thai.p.a","IPA",20,16
+192,0.06,60,2005,"Barrio Blanco","IPA",251,12
+195,0.067,60,2323,"Ultra Gnar Gnar IPA","IPA",116,12
+200,0.067,70,1965,"Sky-Five","IPA",258,12
+209,0.055,35,533,"Amber Road","Red Ale",292,12
+211,0.069,69,182,"Stowaway IPA","IPA",292,12
+212,0.088,108,1806,"Hoptopus Double IPA","IPA",306,16
+215,0.068,85,2420,"Back Bay IPA","IPA",103,12
+223,0.044,44,2558,"Moar","IPA",53,12
+225,0.057,27,2556,"Nordic Blonde","Blonde Ale",53,12
+227,0.072,87,2410,"Harness the Winter","IPA",75,12
+229,0.062,68,1901,"Bent Hop Golden IPA","IPA",75,12
+232,0.055,40,1900,"Lost Sailor IPA","IPA",278,12
+240,0.095,104,1762,"Hemlock Double IPA","IPA",220,12
+242,0.067,85,1067,"Disconnected Red","Red Ale",220,16
+246,0.08,54,2639,"Dark Star","Stout",8,16
+249,0.075,60,2585,"Galaxy IPA","IPA",40,16
+250,0.05,32,643,"Big River Pilsner","Pilsener",519,12
+251,0.06,55,632,"House Brand IPA","IPA",519,12
+252,0.062,65,1714,"Big Sky IPA","IPA",336,12
+255,0.051,26,1711,"Moose Drool Brown Ale","Brown Ale",336,12
+257,0.051,26,767,"Moose Drool Brown Ale (2011)","Brown Ale",336,12
+259,0.062,65,579,"Big Sky IPA (2012)","IPA",336,12
+263,0.051,26,34,"Moose Drool Brown Ale (2009)","Brown Ale",336,12
+264,0.069,81,2096,"Arcus IPA","IPA",221,12
+265,0.058,38,2095,"Wavemaker","Red Ale",221,12
+268,0.098,76,1255,"Bad Axe Imperial IPA","IPA",444,16
+270,0.066,50,985,"Bark Bite IPA","IPA",444,16
+276,0.045,16,2412,"Deception","Blonde Ale",112,12
+277,0.075,35,1898,"Blackmarket Rye IPA","IPA",112,12
+281,0.071,45,1849,"American Red Porter","Porter",294,12
+283,0.066,44,1847,"Colorado Red Ale","Red Ale",294,12
+284,0.048,16,2485,"Saddle Bronc Brown Ale","Brown Ale",79,12
+285,0.046,20,2484,"Bomber Mountain Amber Ale","Red Ale",79,12
+287,0.048,47,2634,"Nordskye ","IPA",12,12
+291,0.07,51,1481,"51K IPA","IPA",12,12
+309,0.08,80,1812,"Quarter Mile Double IPA","IPA",304,12
+321,0.044,16,667,"Blue Point Summer Ale","Blonde Ale",489,12
+331,0.042,30,1891,"Longhop IPA","IPA",281,16
+335,0.066,72,2422,"Firestarter India Pale Ale","IPA",107,12
+337,0.048,30,1614,"Wood Splitter Pilsner","Pilsener",107,16
+339,0.07,94,1549,"Farmer Wirtz India Pale Ale","IPA",107,16
+353,0.066,72,633,"Firestarter India Pale Ale","IPA",107,16
+354,0.071,16,2062,"Noche Dulce","Porter",231,16
+356,0.065,45,1629,"Rebel IPA","IPA",300,16
+367,0.062,80,2596,"Heavy Lifting","IPA",31,12
+371,0.06,52,2107,"Plum St. Porter","Porter",219,12
+372,0.057,52,1573,"Plum St. Porter","Porter",219,12
+373,0.07,80,1289,"Bozone HopZone IPA","IPA",219,12
+376,0.052,40,2167,"Evil Owl","Red Ale",207,12
+380,0.062,68,193,"Lucky U IPA","IPA",391,12
+381,0.054,19,83,"Avalanche Ale","Red Ale",391,12
+383,0.072,60,1801,"Last Stop IPA","IPA",308,12
+384,0.05,21,1800,"Rollin Dirty Red Ale","Red Ale",308,12
+453,0.05,15,921,"Northern Lights Amber Ale","Red Ale",493,12
+456,0.061,64,648,"Fairweather IPA","IPA",493,12
+457,0.068,47,1279,"East India Pale Ale","IPA",437,16
+459,0.068,47,566,"East India Pale Ale","IPA",437,12
+467,0.062,42,28,"Tule Duck Red Ale (Current)","Red Ale",530,16
+472,0.06,40,2125,"1836","Blonde Ale",214,12
+474,0.09,118,2123,"More Cowbell","IPA",214,16
+479,0.099,115,2471,"Hopkick Dropkick","IPA",24,12
+483,0.072,86,2158,"3:33 Black IPA","IPA",24,16
+499,0.053,25,2214,"Horny Toad Cerveza","Blonde Ale",182,16
+500,0.063,35,2213,"Native Amber","Red Ale",182,16
+501,0.068,100,1442,"F5 IPA","IPA",182,16
+502,0.063,35,170,"Native Amber (2013)","Red Ale",182,16
+503,0.053,25,169,"Horny Toad Cerveza (2013)","Blonde Ale",182,16
+504,0.068,100,2315,"Hopportunity Knocks IPA","IPA",155,12
+508,0.054,24,794,"Ashland Amber Ale (2009)","Red Ale",155,12
+509,0.061,94,793,"Caldera IPA (2009)","IPA",155,12
+510,0.061,94,792,"Caldera IPA (2007)","IPA",155,12
+516,0.054,24,37,"Ashland Amber Ale","Red Ale",155,12
+517,0.061,94,36,"Caldera IPA","IPA",155,12
+525,0.09,130,2067,"Dead-Eye DIPA","IPA",230,16
+526,0.055,64,2066,"Fisherman's IPA","IPA",230,12
+528,0.055,30,2064,"Fisherman's Brew","Red Ale",230,12
+529,0.055,35,1928,"Cape Cod Red","Red Ale",267,16
+530,0.049,10,1927,"Beach Blonde","Blonde Ale",267,16
+534,0.056,55,1954,"Ghost Ship White IPA","IPA",192,12
+536,0.062,70,1177,"Mutiny IPA","IPA",192,12
+549,0.039,9,1941,"Monkey Chased the Weasel","Weissbier",222,16
+550,0.078,80,1940,"077XX","IPA",222,16
+551,0.042,35,1439,"Boat Beer","IPA",222,12
+565,0.085,90,2600,"Gone A-Rye","IPA",29,16
+567,0.068,70,2052,"Dankosaurus","IPA",29,16
+578,0.072,85,1648,"Lucky Day IPA","IPA",350,16
+579,0.095,99,1647,"Terrace Hill Double IPA","IPA",350,16
+582,0.06,45,2056,"Black Me Stout","Stout",236,12
+584,0.07,65,1933,"Missile IPA","IPA",236,12
+591,0.057,58,2380,"IPA #11","IPA",121,16
+594,0.089,126,2440,"Bay of Bengal Double IPA (2014)","IPA",99,12
+599,0.062,65,2014,"Operation Homefront","IPA",141,12
+605,0.07,60,1726,"Hopped on the High Seas (Hop #529)","IPA",141,12
+606,0.07,60,1725,"Hopped on the High Seas (Calypso)","IPA",141,12
+608,0.07,60,1694,"Dry-Hopped On The High Seas Caribbean-Style IPA","IPA",141,12
+609,0.07,60,1693,"Hopped on the High Seas (Citra)","IPA",141,12
+610,0.07,60,1692,"Hopped on the High Seas (Ahtanum)","IPA",141,12
+613,0.075,70,1142,"Humidor Series India Pale Ale","IPA",141,12
+614,0.075,70,1141,"Jai Alai IPA Aged on White Oak","IPA",141,12
+615,0.08,65,1140,"José Martí American Porter","Porter",141,12
+617,0.055,25,1138,"Maduro Brown Ale","Brown Ale",141,12
+618,0.055,25,571,"Maduro Brown Ale","Brown Ale",141,12
+620,0.072,75,569,"Tocobaga Red Ale","Red Ale",141,12
+621,0.075,70,546,"Jai Alai IPA","IPA",141,12
+630,0.067,60,1772,"Jacaranada Rye IPA","IPA",320,16
+633,0.047,17,1407,"Tybee Island Blonde","Blonde Ale",415,12
+634,0.062,55,1406,"Savannah Brown Ale","Brown Ale",415,12
+636,0.065,75,2437,"Newport Storm IPA","IPA",101,12
+637,0.052,24,751,"Hurricane Amber Ale (2004)","Red Ale",101,12
+638,0.052,24,120,"Hurricane Amber Ale","Red Ale",101,12
+640,0.068,75,970,"Des Moines IPA","IPA",482,16
+642,0.056,21,968,"Farmer John's Multi-Grain Ale","Blonde Ale",482,16
+659,0.052,25,356,"Crazy Mountain Amber Ale","Red Ale",63,12
+660,0.065,65,2029,"Tropicalia","IPA",247,12
+662,0.049,25,2293,"Aviator Raspberry Blonde","Blonde Ale",169,12
+672,0.06,31,1057,"South Ridge Amber Ale","Red Ale",472,16
+681,0.05,15,1809,"The Tradition","Blonde Ale",227,12
+684,0.092,115,851,"On the Wings of Armageddon","IPA",227,12
+685,0.065,80,186,"The Corruption","IPA",227,12
+694,0.063,37,1746,"Dead Armadillo Amber Ale","Red Ale",330,12
+696,0.075,33,2251,"Oak Cliff Coffee Ale","Brown Ale",127,12
+697,0.085,100,2166,"Dream Crusher Double IPA","IPA",127,12
+702,0.052,23,946,"Dallas Blonde","Blonde Ale",127,12
+703,0.07,70,943,"Deep Ellum IPA","IPA",127,12
+704,0.045,44,1886,"Thrasher Session India Pale Ale","IPA",283,12
+707,0.056,46,1159,"Mother Ale","Blonde Ale",453,12
+708,0.065,71,947,"Twister Creek India Pale Ale","IPA",453,12
+709,0.058,46,929,"Single Engine Red","Red Ale",453,12
+715,0.063,76,2025,"Vertex IPA","IPA",57,12
+718,0.096,85,1888,"Hoperation Overload","IPA",57,12
+722,0.054,27,924,"Deadicated Amber","Red Ale",491,16
+724,0.071,85,730,"California Sunshine Rye IPA","IPA",491,16
+727,0.065,72,1795,"Filthy Hoppin' IPA","IPA",311,16
+737,0.066,100,881,"Hop Abomination","IPA",496,12
+740,0.058,49,871,"Dry Dock Amber Ale","Red Ale",496,12
+741,0.061,64,1685,"Category 3 IPA","IPA",340,12
+744,0.078,74,1382,"Crank Yanker IPA","IPA",369,16
+749,0.078,74,395,"Crank Yanker IPA (2011)","IPA",369,16
+758,0.043,60,2292,"Little Sister India Style Session Ale","IPA",170,12
+759,0.062,80,1504,"Country Boy IPA","IPA",170,12
+760,0.049,23,2604,"Blonde Czich","Blonde Ale",26,16
+761,0.07,61,2432,"White Reaper","IPA",26,16
+765,0.054,48,1967,"General George Patton Pilsner","Pilsener",26,16
+773,0.067,70,1434,"Wood Chipper India Pale Ale","IPA",335,12
+775,0.07,80,2088,"Hop Stalker Fresh Hop IPA","IPA",224,16
+776,0.07,58,1455,"Sudice American Stout","Stout",405,16
+777,0.05,20,1454,"Parcae Belgian Style Pale Ale","IPA",405,16
+780,0.07,70,1451,"Moirai India Pale Ale","IPA",405,16
+781,0.075,53,2191,"Loki Red Ale","Red Ale",201,16
+784,0.075,53,895,"Loki Red Ale (2013)","Red Ale",201,16
+789,0.082,80,1929,"Second Fiddle","IPA",172,16
+790,0.055,30,1858,"Hodad Porter","Porter",172,16
+792,0.055,45,2590,"Czech Yo Self","Pilsener",36,12
+799,0.08,72,935,"Fascist Pig Ale","Red Ale",256,16
+804,0.045,47,2569,"Easy Jack","IPA",48,12
+805,0.075,75,2463,"Union Jack","IPA",48,12
+808,0.047,20,1733,"805","Blonde Ale",48,12
+810,0.05,27,2284,"Hinchtown Hammer Down","Blonde Ale",16,16
+811,0.06,104,1610,"Half Cycle IPA","IPA",16,16
+814,0.071,60,608,"Snake Dog IPA","IPA",521,12
+817,0.07,70,2566,"Flying Mouse 4","IPA",50,12
+823,0.069,65,2110,"1916 Shore Shiver","IPA",217,12
+835,0.074,97,318,"Vortex IPA","IPA",206,16
+838,0.056,16,2660,"Westfalia","Red Ale",4,12
+840,0.063,42,2658,"Villager","IPA",4,12
+842,0.072,65,1565,"Centennial IPA","IPA",15,12
+843,0.047,42,1223,"All Day IPA","IPA",15,12
+844,0.076,73,1874,"El Chingon IPA","IPA",287,12
+845,0.057,40,1873,"Block Party Robust Porter","Porter",287,12
+846,0.052,20,1872,"Local Buzz","Blonde Ale",287,12
+850,0.064,90,2610,"The Gadget","IPA",22,16
+856,0.067,47,358,"Hop Knot IPA","IPA",160,12
+864,0.069,69,1556,"Batch 69 IPA","IPA",253,12
+867,0.065,33,2526,"Texicali ","Brown Ale",66,12
+872,0.059,70,2521,"Soul Doubt","IPA",66,12
+873,0.044,5,2520,"Yo Soy Un Berliner","Weissbier",66,12
+880,0.065,80,857,"Interurban IPA","IPA",460,12
+884,0.07,73,2254,"Salamander Slam","IPA",180,16
+886,0.072,50,2077,"No Wake IPA","IPA",228,12
+887,0.049,15,2076,"Boathouse Blonde","Blonde Ale",228,12
+888,0.05,26,2075,"Cedar Point","Red Ale",228,12
+889,0.067,70,2426,"Clean Shave IPA","IPA",106,12
+892,0.074,74,1777,"2020 IPA","IPA",240,16
+893,0.08,70,1698,"Wolf Among Weeds IPA","IPA",240,16
+894,0.094,92,1641,"Better Weather IPA","IPA",240,16
+895,0.059,60,1490,"Point the Way IPA","IPA",240,16
+897,0.068,65,1399,"Heal the Bay IPA","IPA",240,16
+898,0.059,60,1296,"Point the Way IPA","IPA",240,12
+900,0.055,20,991,"Get Up Offa That Brown","Brown Ale",240,16
+901,0.08,70,750,"Burning Bush Smoked IPA","IPA",240,16
+902,0.08,70,749,"Wolf Among Weeds IPA (2012)","IPA",240,16
+903,0.059,60,549,"Point the Way IPA (2012)","IPA",240,16
+905,0.07,11,2587,"Vanilla Porter","Porter",39,16
+906,0.07,70,1109,"Descender IPA","IPA",464,12
+909,0.093,103,312,"Snake Handler Double IPA","IPA",478,12
+911,0.06,64,309,"Good People IPA","IPA",478,12
+912,0.058,36,308,"Good People American Brown Ale","Brown Ale",478,12
+914,0.059,55,2198,"Goose Island India Pale Ale","IPA",196,12
+926,0.049,21,2127,"Sir William's English Brown Ale","Brown Ale",213,12
+928,0.053,22,2303,"Beer Agent Re-Ignition","Blonde Ale",165,16
+930,0.056,33,1702,"Bourbon Barrel Aged Coconut Porter","Porter",165,16
+931,0.062,60,1701,"Great Crescent IPA","IPA",165,16
+933,0.053,22,1699,"Great Crescent Blonde Ale","Blonde Ale",165,16
+934,0.056,33,1269,"Great Crescent Coconut Porter","Porter",165,16
+936,0.045,36,649,"Great Crescent Brown Ale","Brown Ale",165,16
+941,0.075,65,455,"Bourbon's Barrel Stout","Stout",165,16
+942,0.08,66,442,"Great Crescent Stout","Stout",165,16
+943,0.056,33,441,"Great Crescent Coconut Porter (2012)","Porter",165,16
+946,0.062,60,436,"Great Crescent IPA (2011)","IPA",165,16
+947,0.053,22,389,"Great Crescent Blonde Ale (2011)","Blonde Ale",165,16
+954,0.095,75,2644,"Yeti  Imperial Stout","Stout",6,12
+962,0.07,22,1574,"Barrel Aged Farmer","Brown Ale",365,16
+966,0.05,30,1064,"Owney Irish Style Red Ale","Red Ale",365,16
+969,0.054,30,864,"Roller Dam Red Ale","Red Ale",365,16
+972,0.07,22,655,"Farmer Brown Ale","Brown Ale",365,16
+973,0.07,70,540,"Big Cock IPA","IPA",365,16
+975,0.048,25,517,"40th Annual Bix Street Fest Copper Ale (Current)","Red Ale",365,16
+976,0.06,36,371,"Redband Stout","Stout",365,16
+978,0.054,30,189,"Roller Dam Red Ale (2010)","Red Ale",365,16
+983,0.085,69,2044,"Captain's Daughter","IPA",86,12
+988,0.06,34,984,"Leaning Chimney Smoked Porter","Porter",379,16
+994,0.05,35,2141,"Grand Trunk Bohemian Pils","Pilsener",124,16
+995,0.065,25,2140,"El Rojo","Red Ale",124,16
+998,0.04,55,2007,"Norm's Gateway IPA","IPA",124,12
+1001,0.069,67,1857,"Supergoose IPA","IPA",290,12
+1011,0.07,40,2026,"Pursuit","IPA",248,12
+1012,0.052,18,1361,"Half Full Bright Ale","Blonde Ale",248,12
+1015,0.075,70,1677,"The Great Return","IPA",343,16
+1022,0.059,42,1379,"Harpoon IPA","IPA",234,12
+1025,0.059,42,770,"Harpoon IPA (2012)","IPA",234,12
+1029,0.059,42,126,"Harpoon IPA (2010)","IPA",234,12
+1037,0.076,65,1895,"Groupe G","IPA",280,16
+1039,0.088,77,1893,"Hill 88 Double IPA","IPA",280,16
+1040,0.072,45,990,"Loose Cannon","IPA",479,12
+1044,0.08,86,1346,"Habitus IPA","IPA",423,16
+1045,0.099,85,904,"Ex Umbris Rye Imperial Stout","Stout",423,16
+1052,0.055,34,889,"Hilliard's Pils","Pilsener",362,16
+1053,0.049,20,724,"Hilliard's Blonde","Blonde Ale",362,16
+1054,0.055,60,497,"Hilliard's Amber Ale","Red Ale",362,16
+1058,0.047,28,1834,"One Nut Brown","Brown Ale",297,12
+1059,0.058,45,1833,"Hop Farm IPA","IPA",297,12
+1060,0.049,20,2195,"Double D Blonde","Blonde Ale",198,12
+1062,0.063,70,1543,"Proxima IPA","IPA",198,12
+1063,0.049,20,1390,"Double D Blonde (2013)","Blonde Ale",198,12
+1065,0.065,90,1353,"Alphadelic IPA","IPA",198,12
+1066,0.065,90,499,"Alphadelic IPA (2011)","IPA",198,12
+1067,0.049,20,498,"Double D Blonde (2011)","Blonde Ale",198,12
+1087,0.058,60,2388,"Rise Up Red","Red Ale",80,16
+1088,0.058,35,2200,"Survival Stout","Stout",80,16
+1089,0.066,75,2199,"Hopworks IPA","IPA",80,16
+1092,0.058,60,1085,"Rise-Up Red (2014)","Red Ale",80,16
+1094,0.051,32,658,"HUB Lager","Pilsener",80,16
+1095,0.066,75,653,"Hopworks IPA (2012)","IPA",80,16
+1101,0.068,90,1903,"Let It Ride IPA","IPA",277,12
+1107,0.048,32,2350,"Oklahoma Suks","Red Ale",140,12
+1111,0.07,75,2038,"Infamous IPA","IPA",242,12
+1113,0.045,20,559,"Jon Boat Coastal Ale","Blonde Ale",527,12
+1114,0.068,55,558,"I-10 IPA","IPA",527,12
+1140,0.093,90,468,"Hop Box Imperial IPA","IPA",233,12
+1150,0.095,85,666,"Rodeo Clown Double IPA","IPA",125,12
+1153,0.066,70,463,"Hopadillo India Pale Ale","IPA",125,12
+1155,0.06,64,1572,"KelSo India Pale Ale","IPA",342,12
+1156,0.055,23,1348,"KelSo Pilsner","Pilsener",342,12
+1158,0.05,15,1187,"Peninsula Brewers Reserve (PBR)","Blonde Ale",458,12
+1162,0.065,65,759,"Double Haul IPA (2009)","IPA",510,16
+1163,0.065,65,758,"Double Haul IPA (2006)","IPA",510,16
+1165,0.065,65,86,"Double Haul IPA","IPA",510,16
+1176,0.06,70,1667,"King Street IPA","IPA",102,12
+1179,0.063,65,2460,"India Pale Ale","IPA",87,16
+1188,0.072,100,664,"Elevated IPA","IPA",332,16
+1197,0.064,66,1396,"Laughing Dog IPA","IPA",218,12
+1198,0.064,95,1675,"Madra Allta","IPA",345,12
+1199,0.056,70,1249,"Duluchan India Pale Ale","IPA",345,12
+1208,0.058,40,1832,"Adam's Stout","Stout",298,12
+1209,0.057,42,1688,"American Hero","Red Ale",298,12
+1211,0.065,75,1686,"Irregardless IPA","IPA",298,12
+1217,0.061,30,2326,"Sweet Josie","Brown Ale",149,12
+1218,0.059,42,1926,"Long Trail IPA","IPA",268,12
+1219,0.046,30,1924,"Long Trail Ale","Red Ale",268,12
+1227,0.062,65,1309,"Face Plant IPA","IPA",430,12
+1228,0.056,55,1308,"Rhino Chasers Pilsner","Pilsener",430,12
+1229,0.052,29,1571,"Slow Hand Stout","Stout",377,16
+1234,0.051,31,2032,"Ballistic Blonde","IPA",245,12
+1240,0.051,32,961,"Mac's Scottish Style Amber Ale (2000)","Red Ale",485,12
+1244,0.043,18,2209,"Sol Drifter","Blonde Ale",91,12
+1249,0.069,70,1126,"Psychopathy","IPA",91,12
+1250,0.07,32,1125,"Gnarly Brown","Brown Ale",91,12
+1251,0.06,30,1124,"Happy Amber","Red Ale",91,12
+1261,0.045,21,1625,"Belgian Style Session Ale","IPA",356,12
+1267,0.085,85,1334,"Dreamin' Double IPA","IPA",356,12
+1268,0.099,93,1674,"Chaotic Double IPA","IPA",346,12
+1269,0.08,88,1673,"Manzanita IPA","IPA",346,12
+1270,0.06,25,1672,"Riverwalk Blonde Ale","Blonde Ale",346,12
+1271,0.095,49,1671,"Gillespie Brown Ale","Brown Ale",346,12
+1281,0.065,47,2268,"Pretzel Stout","Stout",161,16
+1282,0.05,35,2197,"Rubberneck Red","Red Ale",161,16
+1288,0.065,60,1831,"Our Legacy IPA","IPA",299,12
+1290,0.065,60,1135,"Our Legacy IPA","IPA",299,16
+1296,0.05,12,773,"Blueberry Blonde Ale","Blonde Ale",299,12
+1301,0.051,20,1578,"Lahaina Town Brown","Brown Ale",375,12
+1306,0.06,24,690,"Sobrehumano Palena'ole","Red Ale",375,12
+1308,0.068,68,435,"Flyin' HI.P.Hay","IPA",375,12
+1311,0.057,30,32,"CoCoNut Porter","Porter",375,12
+1312,0.062,65,31,"Big Swell IPA","IPA",375,12
+1313,0.037,34,1237,"Pit Stop Chocolate Porter","Porter",448,12
+1319,0.072,75,2186,"Tsunami IPA","IPA",203,19.2
+1320,0.072,75,2185,"Tsunami IPA","IPA",203,12
+1321,0.042,22,2184,"Humpback Blonde Ale","Blonde Ale",203,12
+1322,0.052,27,2178,"Hawaiian Crow Porter","Porter",203,12
+1323,0.052,23,2177,"Volcano Red Ale","Red Ale",203,12
+1326,0.053,30,1507,"Gator Tail Brown Ale","Brown Ale",393,12
+1327,0.071,62,1506,"Miami Vice IPA","IPA",393,12
+1328,0.053,16,1325,"Big Rod Coconut Ale","Blonde Ale",393,12
+1330,0.063,61,2093,"Pleasure Town","IPA",223,12
+1331,0.063,61,1814,"Pleasure Town IPA","IPA",223,12
+1333,0.05,24,586,"Kodiak Brown Ale","Brown Ale",223,12
+1334,0.057,70,434,"Sockeye Red IPA","IPA",223,12
+1335,0.08,100,2668,"Habitus (2014)","IPA",3,16
+1336,0.075,85,2667,"Solis","IPA",3,16
+1338,0.08,100,2664,"Habitus","IPA",3,16
+1346,0.043,8,2530,"Daft Funk","Weissbier",65,24
+1354,0.087,80,1884,"Hop Freak","IPA",284,16
+1355,0.051,24,1272,"Louie's Demise Amber Ale","Red Ale",284,16
+1356,0.075,51,1080,"Hop Happy","IPA",284,16
+1360,0.051,24,171,"Louie’s Demise Immort-Ale (2010)","Red Ale",284,16
+1375,0.068,66,2441,"Mission IPA","IPA",98,32
+1377,0.092,75,1459,"Shipwrecked Double IPA","IPA",98,32
+1385,0.075,85,2159,"City of the Sun","IPA",209,16
+1386,0.068,75,2157,"Booming Rollers","IPA",209,16
+1388,0.067,75,2154,"Aurora ","Red Ale",209,16
+1391,0.058,40,1493,"Black House","Stout",209,16
+1392,0.065,115,1492,"Blazing World","Red Ale",209,16
+1397,0.056,28,1907,"Montauk Summer Ale","Blonde Ale",276,12
+1407,0.052,21,2237,"Towhead","Blonde Ale",188,12
+1408,0.07,70,2208,"Lil' Helper","IPA",188,12
+1418,0.053,10,421,"Mustang Golden Ale","Blonde Ale",366,12
+1427,0.07,22,316,"Narragansett Porter","Porter",143,16
+1432,0.085,86,1265,"Old Grogham Imperial India Pale Ale","IPA",387,16
+1433,0.085,86,747,"Old Grogham Imperial India Pale Ale (2012)","IPA",387,16
+1437,0.065,65,1148,"Nebraska India Pale Ale","IPA",337,12
+1439,0.048,15,1146,"Brunette Nut Brown Ale","Brown Ale",337,12
+1443,0.045,40,2475,"Slow Ride","IPA",82,12
+1444,0.065,70,2230,"Ranger IPA","IPA",82,12
+1451,0.052,18,1586,"Fat Tire Amber Ale","Red Ale",82,12
+1453,0.052,18,748,"Fat Tire Amber Ale (2011)","Red Ale",82,12
+1455,0.065,70,564,"Ranger IPA","IPA",82,16
+1456,0.052,18,563,"Fat Tire Amber Ale","Red Ale",82,16
+1457,0.065,70,115,"Ranger IPA (Current)","IPA",82,12
+1459,0.052,18,71,"Fat Tire Amber Ale (2008)","Red Ale",82,12
+1460,0.034,6,1417,"Weiss Trash Culture","Weissbier",410,12
+1465,0.088,85,320,"Gandhi-Bot Double IPA (12 oz.)","IPA",410,12
+1467,0.088,85,42,"Gandhi-Bot Double IPA (16 oz.) (2010)","IPA",410,16
+1478,0.056,30,2042,"Kadigan","Blonde Ale",241,12
+1479,0.052,50,2041,"Dammit Jim!","Red Ale",241,12
+1488,0.072,80,1621,"Hop Drop 'N Roll IPA","IPA",359,16
+1493,0.045,50,2692,"Get Together","IPA",0,16
+1495,0.048,19,2690,"Wall's End","Brown Ale",0,16
+1497,0.06,25,2688,"Stronghold","Porter",0,16
+1507,0.061,66,1258,"5 Day IPA","IPA",442,12
+1509,0.067,70,2331,"Watershed IPA","IPA",150,12
+1510,0.054,24,1669,"Oakshire Amber Ale","Red Ale",150,12
+1511,0.058,27,1668,"Overcast Espresso Stout","Stout",150,12
+1512,0.067,70,999,"Watershed IPA (2013)","IPA",150,12
+1513,0.082,25,2247,"Lake Monster","Porter",184,16
+1523,0.054,36,2333,"Psycho Penguin Vanilla Porter","Porter",148,12
+1529,0.065,26,1058,"33 Select Brown Ale","Brown Ale",471,16
+1532,0.057,26,601,"Winter Games Select #32 Stout","Stout",471,16
+1535,0.065,65,1487,"Falling Down Brown Ale","Brown Ale",301,16
+1551,0.049,35,2302,"Pinner Throwback IPA","IPA",166,12
+1561,0.053,35,1167,"Mama's Little Yella Pils","Pilsener",166,19.2
+1568,0.087,85,806,"Gordon Imperial Red (2010)","IPA",166,12
+1571,0.087,85,726,"G'KNIGHT (16 oz.)","IPA",166,16
+1576,0.09,60,391,"One Hit Wonder","IPA",166,12
+1577,0.087,85,388,"G'KNIGHT (12 oz.)","IPA",166,12
+1578,0.099,98,8,"Ten Fidy Imperial Stout","Stout",166,12
+1579,0.053,35,7,"Mama's Little Yella Pils","Pilsener",166,12
+1580,0.099,100,6,"GUBNA Imperial IPA","IPA",166,12
+1582,0.087,85,4,"Gordon Ale (2009)","IPA",166,12
+1584,0.092,85,805,"Gordon (2005)","IPA",503,12
+1585,0.095,98,804,"Ten Fidy Imperial Stout (2008)","Stout",503,12
+1586,0.099,98,803,"Ten Fidy Imperial Stout (2007)","Stout",503,12
+1596,0.087,60,733,"Gordon Beer (2006)","IPA",503,12
+1597,0.087,85,1533,"G'KNIGHT","IPA",389,12
+1598,0.099,98,1532,"Ten Fidy","Stout",389,12
+1599,0.08,85,1328,"Deviant Dale's IPA","IPA",389,16
+1608,0.052,23,1268,"Rustic Red","Red Ale",441,16
+1612,0.05,24,694,"Cache La Porter","Porter",441,16
+1614,0.062,65,1048,"Outlaw IPA","IPA",307,12
+1617,0.055,25,775,"Mutton Buster","Brown Ale",307,12
+1623,0.065,77,2175,"Mound Builder IPA","IPA",205,12
+1624,0.062,62,2168,"Amazon Princess IPA","IPA",205,12
+1627,0.055,10,2633,"Hotbox Brown","Brown Ale",13,12
+1628,0.048,15,2632,"Gold","Blonde Ale",13,12
+1630,0.065,65,2630,"98 Problems (Cuz A Hop Ain't One)","IPA",13,12
+1632,0.05,35,2628,"Grapefruit IPA","IPA",13,12
+1641,0.059,25,1404,"North 45 Amber Ale","Red Ale",11,16
+1643,0.067,74,1402,"Mind's Eye PA","IPA",11,16
+1644,0.061,60,2312,"Camelback","IPA",157,12
+1647,0.07,75,1384,"Elephant Rock IPA","IPA",355,12
+1653,0.045,18,1335,"Float Trip Ale","Blonde Ale",314,16
+1654,0.055,25,847,"Old Tom Porter","Porter",314,16
+1656,0.055,20,521,"McKinney Eddy Amber Ale","Red Ale",314,16
+1657,0.07,70,479,"Missouri Mule India Pale Ale","IPA",314,16
+1659,0.069,51,1760,"GreyBeard™ IPA","IPA",324,12
+1672,0.058,21,1461,"Peacemaker Pilsner","Pilsener",135,12
+1674,0.058,21,188,"Pallavicini Pilsner (2009)","Pilsener",135,12
+1678,0.045,35,2031,"Golden Fleece","IPA",246,12
+1679,0.055,30,2030,"Smoking Mirror","Porter",246,12
+1685,0.051,21,1718,"Firemans #4 Blonde Ale (2013)","Blonde Ale",128,12
+1688,0.06,50,1086,"Four Squared (2015)","Blonde Ale",128,12
+1689,0.051,21,830,"Firemans #4 Blonde Ale (2015)","Blonde Ale",128,12
+1690,0.072,55,1021,"Watership Brown Ale","Brown Ale",475,12
+1691,0.062,55,938,"Gangway IPA","IPA",475,12
+1693,0.051,17,2516,"Farmer's Daughter Blonde","Blonde Ale",68,16
+1694,0.055,45,2515,"Pump House IPA","IPA",68,16
+1696,0.047,25,2513,"Vanilla Porter","Porter",68,16
+1699,0.065,44,945,"Long Hammer IPA","IPA",487,16
+1700,0.065,44,583,"Long Hammer IPA","IPA",487,12
+1701,0.058,27,339,"Copper Hook (2011)","Red Ale",487,12
+1707,0.09,60,1581,"Hammer & Sickle","Stout",110,12
+1708,0.07,100,1176,"Redacted Rye IPA","IPA",110,16
+1709,0.099,100,1006,"Elevation Triple India Pale Ale","IPA",110,12
+1710,0.05,25,1005,"5:00 O'Clock Afternoon Ale","Blonde Ale",110,16
+1711,0.07,100,636,"Ryeteous Rye IPA (2012)","IPA",110,16
+1725,0.068,28,416,"Eugene Porter","Porter",44,12
+1726,0.065,70,415,"Anti-Hero IPA","IPA",44,12
+1728,0.057,42,2452,"Hustle","Red Ale",93,12
+1730,0.06,60,2132,"Dad","Red Ale",93,12
+1731,0.058,35,1993,"Panther","Porter",93,12
+1734,0.072,75,1852,"Truth","IPA",93,12
+1735,0.048,25,1851,"Cougar","Blonde Ale",93,12
+1741,0.05,55,1771,"Lil SIPA","IPA",321,16
+1743,0.05,100,2579,"Jah Mon","IPA",43,12
+1768,0.07,80,1576,"RoughTail IPA","IPA",376,16
+1773,0.056,40,1842,"Original Slacker Ale","Brown Ale",164,12
+1777,0.056,35,1479,"1881 California Red","Red Ale",397,12
+1781,0.056,35,882,"1881 California Red Ale","Red Ale",397,16
+1783,0.068,66,1867,"Saint Archer IPA","IPA",288,12
+1786,0.069,20,2599,"Sex Panther","Porter",30,12
+1788,0.091,99,2063,"Count Hopula (Vault Series)","IPA",30,16
+1790,0.05,15,1934,"SunSpot Golden Ale","Blonde Ale",30,12
+1793,0.055,20,1073,"Epicenter Amber Ale","Red Ale",30,12
+1795,0.07,85,1071,"Hop Shock IPA","IPA",30,12
+1796,0.069,20,852,"Sex Panther (2014)","Porter",30,12
+1801,0.07,85,317,"Hop Shock IPA (2010)","IPA",30,12
+1804,0.055,20,124,"Epicenter Amber Ale (2010)","Red Ale",30,12
+1807,0.089,88,2002,"Giant DIPA","IPA",252,16
+1817,0.05,11,1477,"Oval Beach Blonde Ale","Blonde Ale",398,16
+1823,0.045,30,1078,"Schlafly IPA","IPA",428,12
+1824,0.05,30,1077,"Schlafly American Brown Ale","Brown Ale",428,12
+1828,0.074,60,1302,"Blur India Pale Ale","IPA",432,12
+1831,0.07,105,918,"Frankenlou's IPA","IPA",494,16
+1832,0.07,55,917,"Becky's Black Cat Porter","Porter",494,16
+1834,0.053,20,1768,"Stone Fort Brown Ale","Brown Ale",183,16
+1835,0.077,40,1767,"Seventh Son Hopped Red Ale","Red Ale",183,16
+1837,0.07,68,1765,"Golden Ratio IPA","IPA",183,16
+1840,0.069,65,1539,"Monkey Fist IPA","IPA",385,12
+1845,0.072,65,2239,"Torpedo","IPA",83,12
+1850,0.05,28,1295,"Summerfest","Pilsener",83,12
+1851,0.072,65,426,"Torpedo","IPA",83,16
+1857,0.1,52,2574,"4Beans","Porter",46,12
+1861,0.065,62,2090,"Bengali","IPA",46,24
+1863,0.099,111,1696,"Hi-Res","IPA",46,12
+1865,0.067,74,1591,"Autumnation (2013)","IPA",46,16
+1869,0.064,62,1385,"Bengali Tiger","IPA",46,16
+1870,0.099,85,1020,"3Beans","Porter",46,12
+1871,0.059,47,778,"Brownstone","Brown Ale",46,16
+1874,0.091,103,628,"Resin","IPA",46,12
+1875,0.063,69,525,"Diesel","Stout",46,16
+1880,0.064,62,422,"Bengali Tiger (2011)","IPA",46,16
+1883,0.068,65,1521,"Modus Hoperandi","IPA",264,12
+1884,0.058,15,1297,"Estival Cream Stout","Stout",264,12
+1892,0.068,65,67,"Modus Hoperandi","IPA",264,12
+1893,0.058,39,1792,"Iron Butt Red Ale","Red Ale",313,12
+1894,0.071,92,1609,"Initial Point India Pale Ale","IPA",313,12
+1898,0.06,70,2305,"Homefront IPA","IPA",163,12
+1904,0.084,90,894,"Odyssey Imperial IPA","IPA",371,12
+1906,0.07,113,24,"113 IPA","IPA",371,12
+1911,0.07,88,2407,"Rule G IPA","IPA",115,12
+1912,0.058,35,2406,"Murphy's Law","Red Ale",115,12
+1917,0.05,22,407,"OB-1 Organic Ale","Brown Ale",191,12
+1920,0.068,60,393,"Pako’s EyePA","IPA",191,12
+1923,0.063,100,1596,"Dagger Falls IPA","IPA",309,12
+1924,0.063,100,1595,"Dagger Falls IPA","IPA",309,12
+1937,0.063,100,879,"Dagger Falls IPA","IPA",309,12
+1939,0.055,40,1971,"Texas Pale Ale (TPA)","IPA",257,16
+1943,0.048,32,1283,"Na Zdraví Pilsner","Pilsener",436,16
+1944,0.055,65,1282,"Nice Rack IPA","IPA",436,16
+1945,0.075,72,2362,"2014 IPA Cicada Series","IPA",133,16
+1946,0.077,65,2346,"Sinister Minister Black IPA","IPA",133,16
+1949,0.05,20,2296,"Suzy B Dirty Blonde Ale","Blonde Ale",133,12
+1950,0.08,80,1745,"Mississippi Fire Ant","Red Ale",133,16
+1952,0.05,20,1118,"Suzy B Dirty Blonde Ale","Blonde Ale",133,16
+1957,0.085,110,1728,"Red Cockaded Ale","IPA",118,12
+1958,0.092,100,1497,"Valkyrie Double IPA","IPA",118,12
+1959,0.085,110,1011,"Red Cockaded Ale (2013)","IPA",118,12
+1961,0.05,20,856,"Bombshell Blonde","Blonde Ale",118,16
+1962,0.099,100,853,"PRO-AM (2012) (2012)","IPA",118,12
+1967,0.05,20,44,"Bombshell Blonde","Blonde Ale",118,12
+1968,0.047,35,2486,"Baby Daddy Session IPA","IPA",78,12
+1987,0.065,52,1205,"Northern Lights India Pale Ale","IPA",383,16
+1989,0.065,52,368,"Northern Lights India Pale Ale","IPA",383,12
+1993,0.065,65,90,"Third Eye Pale Ale","IPA",119,12
+1999,0.063,64,2150,"Beyond The Pale IPA","IPA",131,12
+2011,0.054,32,357,"2012 Black Ale","Brown Ale",131,12
+2016,0.051,31,953,"Wisco Disco","Red Ale",486,16
+2023,0.072,70,637,"Monkeynaut IPA","IPA",412,12
+2031,0.083,100,2415,"Unchained #18 Hop Silo","IPA",58,16
+2034,0.054,23,2164,"Cowbell","Porter",25,16
+2035,0.058,20,2085,"Hop Up Offa That Brett (2014)","IPA",25,16
+2040,0.064,75,2001,"Fistful Of Hops Red","IPA",25,16
+2041,0.063,75,2000,"Fistful of Hops Orange","IPA",25,16
+2042,0.064,75,1999,"Fistful Of Hops Blue","IPA",25,16
+2043,0.064,75,1996,"Fistful of Hops Green","IPA",25,16
+2047,0.075,77,1420,"Grapefruit Jungle (GFJ)","IPA",25,16
+2049,0.099,75,1367,"Bourbon Barrel Aged Timmie","Stout",25,16
+2062,0.091,91,651,"Isis","IPA",25,16
+2064,0.075,77,532,"Grapefruit Jungle (GFJ) (2011)","IPA",25,16
+2075,0.073,69,1112,"Overrated! West Coast Style IPA","IPA",61,16
+2076,0.075,90,329,"WET","IPA",61,16
+2079,0.051,45,17,"Coffee Bender","Brown Ale",61,16
+2080,0.051,45,16,"Bender","Brown Ale",61,16
+2081,0.097,120,15,"Abrasive Ale","IPA",61,16
+2084,0.062,99,12,"Furious","IPA",61,16
+2085,0.073,50,1242,"Big Nose","IPA",447,12
+2095,0.08,95,1229,"Dodgy Knight Imperial IPA","IPA",449,12
+2097,0.05,44,663,"TailGate IPA","IPA",449,24
+2098,0.05,44,662,"TailGate IPA","IPA",449,12
+2100,0.05,19,622,"Blacktop Blonde","Blonde Ale",449,24
+2101,0.05,19,362,"Blacktop Blonde","Blonde Ale",449,12
+2105,0.062,35,1736,"Zombie Monkie","Porter",45,16
+2108,0.068,110,1017,"Ethos IPA","IPA",45,16
+2109,0.044,12,1009,"Tallgrass Pub Ale","Brown Ale",45,16
+2117,0.072,93,104,"Oasis (2010)","IPA",45,16
+2118,0.044,22,103,"Tallgrass Ale","Brown Ale",45,16
+2120,0.063,60,101,"Tallgrass IPA","IPA",45,16
+2124,0.07,80,544,"Old Elephant Foot IPA","IPA",490,16
+2125,0.065,35,2640,"Peck's Porter","Porter",7,16
+2137,0.063,23,2118,"Battle LIne","Brown Ale",215,12
+2139,0.071,69,2116,"Brutus","IPA",215,12
+2144,0.08,120,1111,"Heady Topper","IPA",272,16
+2145,0.08,120,379,"Heady Topper","IPA",272,16
+2146,0.046,20,1200,"Bomber Mountain Amber Ale (2013)","Red Ale",457,12
+2147,0.07,75,1199,"Indian Paintbrush IPA","IPA",457,12
+2148,0.048,16,1198,"Saddle Bronc Brown Ale (2013)","Brown Ale",457,12
+2159,0.069,34,1562,"Grandma's Pecan","Brown Ale",33,16
+2160,0.099,101,1561,"Double Trunk","IPA",33,16
+2161,0.046,45,1749,"Just IPA","IPA",328,12
+2174,0.04,18,2319,"Knotty Blonde Ale","Blonde Ale",153,12
+2175,0.062,40,2317,"Fivepine Chocolate Porter","Porter",153,12
+2176,0.062,82,2316,"Hoodoo Voodoo IPA","IPA",153,12
+2177,0.053,22,1913,"Hydraulion Red","Red Ale",273,12
+2178,0.06,50,1912,"40 Mile IPA","IPA",273,12
+2187,0.058,20,2623,"Cafe Leche","Porter",17,16
+2189,0.12,90,2621,"Csar","Stout",17,16
+2191,0.085,115,1449,"Overlord Imperial IPA","IPA",17,16
+2192,0.058,36,951,"Alloy","IPA",17,16
+2193,0.051,22,950,"Rivet Irish Red Ale","Red Ale",17,16
+2194,0.052,50,949,"3 Gear Robust Porter","Porter",17,16
+2195,0.045,35,948,"Circuit Bohemian Pilsner","Pilsener",17,16
+2197,0.07,60,1755,"Juke Joint IPA","IPA",152,12
+2198,0.07,35,1754,"Parade Ground Coffee Porter","Porter",152,12
+2200,0.045,18,529,"Tin Roof Blonde Ale","Blonde Ale",152,12
+2202,0.045,28,494,"Perfect Tin Amber","Red Ale",152,12
+2203,0.073,87,1856,"IPA & a Half","IPA",291,12
+2207,0.062,72,1938,"Almanac IPA","IPA",265,12
+2209,0.06,30,1936,"Farmer's Tan Red Ale","Red Ale",265,12
+2214,0.075,93,2444,"Nugget Nectar","Red Ale",97,16
+2217,0.075,85,1509,"Perpetual IPA","IPA",97,12
+2219,0.062,65,641,"Hoppy Boy","IPA",520,16
+2221,0.075,63,2458,"Chupahopra","IPA",38,12
+2223,0.041,41,2235,"Day Hike Session","IPA",190,12
+2224,0.048,48,1661,"Trailhead ISA","IPA",190,12
+2225,0.052,27,1660,"Immersion Amber","Red Ale",190,12
+2226,0.062,70,1659,"Evo IPA","IPA",190,12
+2228,0.062,70,1173,"Evolutionary IPA (2012)","IPA",190,12
+2230,0.054,20,519,"SoDo Brown Ale","Brown Ale",190,12
+2231,0.052,27,518,"Immersion Amber Ale (2011)","Red Ale",190,12
+2232,0.062,70,505,"Evolutionary IPA (2011)","IPA",190,12
+2233,0.048,48,482,"Trailhead India Style Session Ale (2011)","IPA",190,12
+2235,0.063,69,2497,"Wobble","IPA",74,16
+2253,0.04,42,1925,"Trader Session IPA","IPA",159,12
+2254,0.073,83,1723,"Hop Nosh IPA","IPA",159,12
+2255,0.04,17,1212,"SUM'R","Blonde Ale",159,12
+2257,0.073,82,1089,"Hop Notch IPA (2013)","IPA",159,12
+2261,0.06,75,2372,"The Green Room","IPA",126,16
+2271,0.085,90,2507,"Double Duckpin","IPA",71,12
+2275,0.045,50,2190,"Campside Session IPA","IPA",202,16
+2281,0.099,51,2562,"Lee Hill Series Vol. 3 - Barrel Aged Imperial Stout","Stout",51,19.2
+2286,0.099,90,1315,"Upslope Imperial India Pale Ale","IPA",51,19.2
+2289,0.075,30,683,"Upslope Belgian Style Pale Ale","IPA",51,12
+2296,0.053,22,382,"Common Sense Kentucky Common Ale","Brown Ale",546,16
+2297,0.065,70,381,"Upstate I.P.W.","IPA",546,12
+2299,0.09,75,1825,"Squatters Hop Rising Double IPA","IPA",302,12
+2304,0.09,75,1680,"Squatters Hop Rising Double IPA (2014)","IPA",302,12
+2314,0.075,31,1730,"Wynona's Big Brown Ale","Brown Ale",322,12
+2316,0.073,85,1603,"Good Vibes IPA","IPA",322,12
+2318,0.04,37,1846,"Wachusett Light IPA","IPA",295,12
+2319,0.06,55,1845,"Green Monsta IPA","IPA",295,12
+2320,0.056,50,1844,"Wachusett IPA","IPA",295,12
+2322,0.085,85,1418,"Larry Imperial IPA","IPA",295,12
+2325,0.04,37,1029,"Wachusett Light IPA (2013)","IPA",295,12
+2328,0.06,55,618,"Green Monsta IPA","IPA",295,12
+2330,0.052,67,2450,"Self Starter","IPA",94,16
+2341,0.068,65,575,"Westbrook IPA","IPA",384,12
+2344,0.058,55,1550,"Charlie in the Rye","IPA",351,12
+2348,0.075,89,2343,"O’Malley’s IPA","IPA",132,12
+2360,0.082,100,1619,"Hop Slayer Double IPA","IPA",361,12
+2363,0.052,27,971,"Phat Chance","Blonde Ale",361,12
+2364,0.082,100,740,"Hop Slayer Double IPA (2011)","IPA",361,12
+2365,0.082,100,430,"Hop Slayer Double IPA (2011)","IPA",361,12
+2370,0.068,21,2253,"Blonde Hunny","IPA",181,12
+2379,0.074,83,762,"Ace IPA","IPA",509,16
+2380,0.08,31,761,"P-51 Porter","Porter",509,16
+2382,0.071,60,2148,"#002 American I.P.A.","IPA",211,12
+2384,0.048,38,2146,"#004 Session I.P.A.","IPA",211,12
+2386,0.062,61,1470,"Ananda India Pale Ale","IPA",239,12
+2388,0.058,72,2627,"Train Hopper","IPA",14,12
+2390,0.059,135,1676,"Troopers Alley IPA","IPA",344,12
+2393,0.065,82,2417,"4000 Footer IPA","IPA",109,12
+2395,0.065,69,1697,"Be Hoppy IPA","IPA",339,16
+2396,0.069,69,2194,"Worthy IPA","IPA",199,12
+2398,0.077,30,1513,"Lights Out Vanilla Cream Extra Stout","IPA",199,12
+2399,0.069,69,1512,"Worthy IPA (2013)","IPA",199,12
+2405,0.067,45,928,"Belgorado","IPA",424,12
