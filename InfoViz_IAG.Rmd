@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 ## A statistical computing environment 
-<img src="Rlogo.png" style="position:float;top:0px;left:0px;width: 150px;" />
+<img src="image/Rlogo.png" style="position:float;top:0px;left:0px;width: 150px;" />
 
 * R is an open source programming language and software environment for statistical computing and graphics
 
@@ -140,13 +140,13 @@ Data from http://www.openexoplanetcatalogue.com
 
 Read and display data in  tabular format
 ```{r,echo=T, eval=FALSE}
-d <- read.csv("exoplanets.csv",header = T)
+d <- read.csv("data/exoplanets.csv",header = T)
 d <- d[complete.cases(d),]
 head(d)
 ```
 
 ```{r}
-d <- read.csv("exoplanets.csv",header = T)
+d <- read.csv("data/exoplanets.csv",header = T)
 d <- d[complete.cases(d),]
 datatable(d)
 ```
@@ -156,7 +156,7 @@ datatable(d)
 
 ```{r,echo=T, message=F, warning=FALSE}
 p1 <- ggplot(data = d, aes(x = Period, y = star_mass, group=Discovery_method,
-  fill = Discovery_method,text=name,size=Radius)) + geom_point(alpha=0.5) +
+  fill = Discovery_method, text=name, size=Radius)) + geom_point(alpha=0.5) +
   scale_x_log10() + ylab("Stellar Mass") + xlab("Period")+
   theme(legend.position = "none")
 ```
@@ -396,10 +396,10 @@ chorddiag(nc)
 ```
 
 ## What about Beers?
-<img src="beers.jpg" width="200px" />
+<img src="image/beers.jpg" width="200px" />
 
 ```{r,echo=T,message=F, warning=FALSE}
-beer <- read.csv("beer2.csv",header = T)
+beer <- read.csv("data/beer2.csv",header = T)
 beer <- beer[complete.cases(beer),]
 ```
 
@@ -482,7 +482,7 @@ ggplotly(t1)
 ## Zombies
 ### Not related, but still important
 
-<img src="zombie.jpg" style="position:float;top:0px;right:10px;width: 275px;" />
+<img src="image/zombie.jpg" style="position:float;top:0px;right:10px;width: 275px;" />
 
 ### The system is given as:
 $\frac{dS}{dt} = P - BSZ - dS$
@@ -583,7 +583,7 @@ Potential data sources
 * Your own work 
 
 ## Wanna know more about Statistics?
-<img src="cover.jpg" style="position:float;top:0px;right:10px;width: 350px;" />
+<img src="image/cover.jpg" style="position:float;top:0px;right:10px;width: 350px;" />
 
 Available at [Amazon](https://www.amazon.com/Bayesian-Models-Astrophysical-Data-Python/dp/1107133084%3FSubscriptionId%3DAKIAJWSJBGAYE3WNEIRQ%26tag%3Dlove-bookstore-com-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1107133084&seller=) and [Cambridge](http://admin.cambridge.org/mn/academic/subjects/statistics-probability/statistics-physical-sciences-and-engineering/bayesian-models-astrophysical-data-using-r-jags-python-and-stan) websites. 
 
