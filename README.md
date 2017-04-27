@@ -70,9 +70,9 @@ These can be done in 2 ways:
 * Alternatively, you can simply type in the Rstudio console window
 
     
-    pac <-c("ggplot2","reshape2","circlize","ggdendro","ggthemes","RColorBrewer",
-           "reshape2","PerformanceAnalytics","psych");
+      pac <-c("ggplot2","reshape2","circlize","ggdendro","ggthemes","RColorBrewer",
+             "reshape2","PerformanceAnalytics","psych");
 
-        install.packages(pac,dependencies=T)
+      install.packages(pac,dependencies=T)
     
 
