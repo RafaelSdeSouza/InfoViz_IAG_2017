@@ -64,7 +64,8 @@ These can be done in 2 ways:
 
     Packages (separate multiple with space or comma):
 
-        ggplot2, reshape2, circlize, ggdendro, PerformanceAnalytics, ggthemes,
+        ggplot2, reshape2, circlize, ggdendro,
+        PerformanceAnalytics, ggthemes,
         RColorBrewer,psych
 
 * Alternatively, you can simply type in the Rstudio console window
