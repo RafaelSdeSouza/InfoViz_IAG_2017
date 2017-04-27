@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/RafaelSdeSouza/ADA8/master/images/COIN.png" width="800" align="right">
 
-# Brief Tutorial on Bayesian Modeling #
+# Brief Tutorial on Information Visualization #
 ## IAG-USP - São Paulo, Brazil ##
 
 AGA 0513 
