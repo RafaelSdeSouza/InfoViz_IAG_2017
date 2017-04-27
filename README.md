@@ -68,9 +68,19 @@ These can be done in 2 ways:
         RColorBrewer,psych
 
 * Alternatively, you can simply type in the Rstudio console window
+<<<<<<< HEAD
     
     pac <-c("ggplot2","reshape2","circlize","ggdendro","ggthemes","RColorBrewer",
            "reshape2","PerformanceAnalytics","psych");
 
         install.packages(pac,dependencies=T)
     
+=======
+   
+   ```R
+    pac <-c("ggplot2","reshape2","circlize","ggdendro","ggthemes",
+"RColorBrewer","reshape2","PerformanceAnalytics","psych");
+
+install.packages(pac,dependencies=T)
+    ```
+>>>>>>> origin/master
