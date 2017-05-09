@@ -1,9 +1,11 @@
 <img src="https://raw.githubusercontent.com/RafaelSdeSouza/ADA8/master/images/COIN.png" width="800" align="right">
 
+
 # Brief Tutorial on Information Visualization #
 ## IAG-USP - São Paulo, Brazil ##
 
 AGA 0513 
+Slides available at [AGA0513](http://rpubs.com/rafael_astro/AGA0513)
 
 This repository holds  the scripts used to illustrate some visualiuzation methods in R
 
